@@ -17,3 +17,5 @@ jobs:
           input_path: 'api-spec/openapi.json'
           config_path: 'api-spec/my.stainless.yaml'
           project_name: 'my-stainless-project'
+          # the project name MUST be already created in the Stainless UI
+          # and the project name CAN NOT contain language name, like 'go' or 'js'
